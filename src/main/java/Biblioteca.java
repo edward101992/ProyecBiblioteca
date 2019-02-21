@@ -1,12 +1,9 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * Esta clase contiene la informacion acerca las caracteristicas del inventario 
+ * de libros Disponibles en la biblioteca
  */
 
 /**
- * Esta clase contiene la informacion acerca las caracteristicas del inventario 
- * de libros Disponibles en la biblioteca
  * @author Edward Ramos
  * @version 1.0
  * @param codigoLibro // Variable la cual identifica el Libro
@@ -32,13 +29,23 @@ public class Biblioteca {
   private short contador;
     
   
-  public void cantidadLibros (){
+  public void cantidadLibros (int codigoLibro){
   
-      //  
-  
+      /** 
+      * Este metodo es el encargado de hacer una sumatoria de la cantidad de libros disponibles 
+      * segun el codigoLibro que reciba
+      */
   }
   
-  
+ public void libroMasCaro(){
+     
+     /**
+      * Este metodo se encarga de revisar en el inventario de la biblioteca
+      * los precios y retorna el libro con el mayor precio
+      */
+ 
+ }
+ 
     public Biblioteca(int codigoLibro, String nombreLibro, String editorial, Short anio, float precioLibro, String categoriaLibro) {
         this.codigoLibro = codigoLibro;
         this.nombreLibro = nombreLibro;
