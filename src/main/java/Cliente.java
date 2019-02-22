@@ -11,6 +11,7 @@
  * @param direccionCliente // Direccion a la cual se enviara el libro comprado
  * @param telefonoCliente // Telefono el cual el cliente dara por si se desea comunicar con el
  * @param nombreLibro // Nombre dle libro el cual el cliente desea buscar
+ * @param nombreCliente // Nombre con el cual se identificara el cliente
  */
 public class Cliente {
 
@@ -28,6 +29,35 @@ public class Cliente {
      */
     
     }
+     
+     public void insertarCliente (String nombreCliente){
+     /**
+      * Aqui el administrador de la biblioteca podra insertar
+      * los clientes
+      */
+     
+     }
+    
+      
+       public void editarCliente (){
+      /**
+      *Aquie el administrador podra editar los 
+      * clientes
+      */
+     
+     }
+       
+        public void eliminarCliente (){
+     /**
+      * Aquie el administrador podra eliminar los clientes
+      * que ya no esten subscritos a la biblioteca
+      */
+     
+     }
+     
+     
+     
+     
     public Cliente(int codigoCliente, String nombreCliente, String direccionCliente, int telefonoCliente) {
         this.codigoCliente = codigoCliente;
         this.nombreCliente = nombreCliente;
@@ -66,9 +96,5 @@ public class Cliente {
     public void setTelefonoCliente(int telefonoCliente) {
         this.telefonoCliente = telefonoCliente;
     }
-    
-    
- 
-            
-   
+  
 }
