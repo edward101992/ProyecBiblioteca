@@ -36,7 +36,14 @@ public class Venta {
     
     }
     
+    public void facturacion(){
+    /**
+     * Luego de realizar la venta - compra del libro 
+     * se imprimira un recibo teniendo en cuenta los 
+     * datos que tenga el codigo de la venta
+     */
     
+    }
     
     public Venta(int codigoVenta, int idLibro, int idCliente, Date fechaCompra, Date fechaEntrega) {
         this.codigoVenta = codigoVenta;

@@ -23,36 +23,40 @@ public class Cliente {
     
     
      public void buscarLibro (String nombreLibro){
-    /**
-     *  En este metodo el cliente buscara si el libro que desea comprar esta
-     *  en el inventario de la Biiblioteca 
-     */
+        
+         /**
+         *  En este metodo el cliente buscara si el libro que desea comprar esta
+         *  en el inventario de la Biiblioteca 
+         */
     
     }
      
-     public void insertarCliente (String nombreCliente){
-     /**
-      * Aqui el administrador de la biblioteca podra insertar
-      * los clientes
-      */
-     
+     public void insertarCliente (String nombreCliente,String direccionCliente, int telefonoCliente){
+        
+         /**
+         * Aqui el administrador de la biblioteca podra insertar
+         * los clientes
+         */
+
      }
     
       
-       public void editarCliente (){
-      /**
-      *Aquie el administrador podra editar los 
-      * clientes
-      */
-     
+     public void editarCliente (int codigoCliente, String nombreCliente, String direccionCliente, int telefonoCliente){
+        
+         /**
+        *Aquie el administrador podra editar los 
+        * clientes introduciendo el codigo del cliente
+        */
+
      }
        
-        public void eliminarCliente (){
-     /**
-      * Aquie el administrador podra eliminar los clientes
-      * que ya no esten subscritos a la biblioteca
-      */
-     
+     public void eliminarCliente (int codigoCliente){
+       
+         /**
+         * Aquie el administrador podra eliminar los clientes
+         * que ya no esten subscritos a la biblioteca insertando el codigo
+         */
+
      }
      
      

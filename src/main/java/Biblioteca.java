@@ -46,6 +46,29 @@ public class Biblioteca {
  
  }
  
+ public void insertarLibro(String nombreLibro,String editorial, Short anio, float precioLibro, String categoriaLibro){
+    
+     /**
+     * El administrador del sitio podra insertar los libros al inventario
+     */
+ 
+ }
+ 
+ public void eliminarLibro(int codigoLibro){
+    
+     /**
+      * En este metodo el administrador eliminara los libros 
+      */
+ }
+ 
+ public void editarLibro(){
+    
+     /**
+     * Metodo para editar los libros 
+     */
+ 
+ }
+
     public Biblioteca(int codigoLibro, String nombreLibro, String editorial, Short anio, float precioLibro, String categoriaLibro) {
         this.codigoLibro = codigoLibro;
         this.nombreLibro = nombreLibro;
