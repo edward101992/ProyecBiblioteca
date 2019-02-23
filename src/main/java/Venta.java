@@ -25,7 +25,7 @@ public class Venta {
     
   
     
-    public void comprarLibro(){
+    public void comprarLibro(int codigoVenta,int idLibro,int idCliente, Date fechaCompra, Date fechaVenta){
     /**
      * Este metodo tendra 2 partes, la primera; el libro que el cliente busco
      * tiene unidades disponibles dentro de la biblioteca,

@@ -31,7 +31,7 @@ public class Cliente {
     
     }
      
-     public void insertarCliente (String nombreCliente,String direccionCliente, int telefonoCliente){
+     public void insertarCliente (int codigoCliente,String nombreCliente,String direccionCliente, int telefonoCliente){
         
          /**
          * Aqui el administrador de la biblioteca podra insertar

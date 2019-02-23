@@ -1,6 +1,7 @@
 /*
  * Esta clase contiene la informacion acerca las caracteristicas del inventario 
- * de libros Disponibles en la biblioteca
+ * de libros Disponibles en la biblioteca, ademas de la insercion, modificacion
+ * eliminacion 
  */
 
 /**
@@ -61,7 +62,7 @@ public class Biblioteca {
       */
  }
  
- public void editarLibro(){
+ public void editarLibro(int codigoLibro, String nombreLibro, String editorial, Short anio, float precioLibro, String categoriaLibro){
     
      /**
      * Metodo para editar los libros 
